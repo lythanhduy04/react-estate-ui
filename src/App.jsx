@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import HomePage from "./router/homePage/homePage";
 function App() {
   return (
-    <div class="layout">
+    <div className="layout">
       <div className="navbar">
         <Navbar />
       </div>

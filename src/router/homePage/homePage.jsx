@@ -21,18 +21,18 @@ function HomePage() {
               <h2>Years of Experience</h2>
             </div>
             <div className="box">
-              <h1>1200</h1>
-              <h2>Property readly</h2>
+              <h1>200</h1>
+              <h2>Award Gained</h2>
             </div>
             <div className="box">
-              <h1>16+</h1>
-              <h2>Years of Experience</h2>
+              <h1>2000+</h1>
+              <h2>Property readly</h2>
             </div>
           </div>
         </div>
       </div>
       <div className="imgContainer">
-        <img src="/bg.png" alt="bacground" />
+        <img src="/bg.png" alt="background" />
       </div>
     </div>
   );
