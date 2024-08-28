@@ -26,7 +26,8 @@
 
   .content {
     // background: #ffeaea;
+    // flex: 1;
     // height: calc(100vh - 100px); phần nội dung toàn màn hình
-    flex: 1;
+    height: calc(100vh - 100px);
   }
 }
