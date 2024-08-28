@@ -2,36 +2,53 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+
   h1 {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 24px;
   }
-  .top {
-    .item {
-      display: flex;
-      flex-direction: column;
 
-      input {
-        padding: 20px;
-      }
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    label {
+      font-size: 20px;
+    }
+
+    input,
+    select {
+      width: 100px;
+      border: 1px solid #e0e0ee;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
     }
   }
+
+  .top {
+    input {
+      width: 100%;
+    }
+  }
+
   .bottom {
     display: flex;
-    gap: 25px;
-    .item {
-      display: flex;
-      flex-direction: column;
-      font-size: 10px;
-      font-weight: bold;
-      select {
-        padding: 10px 5px 10px 30px;
-        width: 100px;
-      }
-      input {
-        padding: 10px 5px 10px 30px;
-        width: 100px;
-      }
+    justify-content: space-between;
+    gap: 20px;
+
+    button {
+      width: 100px;
+      padding: 10px;
+      cursor: pointer;
+      background-color: #fece51;
+      border: none;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
     }
   }
 }
