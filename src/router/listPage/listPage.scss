@@ -44,14 +44,11 @@
         0.6
       ); /* Hiện thanh trượt rõ hơn khi cuộn */
     }
-
-    .wrapper::-webkit-scrollbar-track {
-      background: transparent; /* Làm nền của thanh cuộn trong suốt */
-    }
   }
 
   .mapContainer {
     flex: 2;
+    height: 100%;
     background-color: #fcf5f3;
   }
 }
