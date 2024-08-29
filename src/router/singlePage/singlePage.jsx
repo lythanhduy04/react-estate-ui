@@ -28,7 +28,51 @@ function SinglePage() {
         </div>
       </div>
       <div className="features">
-        <div className="wrapper"></div>
+        <div className="wrapper">
+          <p className="title">General</p>
+          <div className="listVertical">
+            <div className="feature">
+              <img src="/utility.png" alt="" />
+              <div className="featureText">
+                <span>Utilities</span>
+                <p>Renter is responsible</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/pet.png" alt="" />
+              <div className="featureText">
+                <span>Pet Policy</span>
+                <p>Pets Allowed</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/fee.png" alt="" />
+              <div className="featureText">
+                <span>Property Fees</span>
+                <p>Must have 3x the rent in total household income</p>
+              </div>
+            </div>
+          </div>
+          <p className="title">Room Sizes</p>
+          <div className="sizes"></div>
+          <p className="title">Nearby Places</p>
+          <div className="listHorizontal"></div>
+          <p className="title">Location</p>
+          <p className="title"></p>
+          <div className="mapContainer"></div>
+          <div className="buttons">
+            <div className="button">
+              <button>
+                <img src="/chat.png" alt="" />
+                Send a message
+              </button>
+              <button>
+                <img src="/save.png" alt="" />
+                Send the place.
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
