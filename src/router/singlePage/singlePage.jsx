@@ -1,4 +1,5 @@
 import Slider from "../../components/slider/Slider";
+import Map from "../../components/map/Map.jsx";
 import "./singlePage.scss";
 import { singlePostData, userData } from "../../lib/dummydata";
 
@@ -54,23 +55,59 @@ function SinglePage() {
             </div>
           </div>
           <p className="title">Room Sizes</p>
-          <div className="sizes"></div>
-          <p className="title">Nearby Places</p>
-          <div className="listHorizontal"></div>
+          <div className="sizes">
+            <div className="size">
+              <img src="/size.png" alt="" />
+              <span>80 sqft</span>
+            </div>
+            <div className="size">
+              <img src="/bed.png" alt="" />
+              <span>2 bedroom</span>
+            </div>
+            <div className="size">
+              <img src="/bath.png" alt="" />
+              <span>1 bathroom</span>
+            </div>
+          </div>
+          <p className="title"> Nearby place </p>
+          <div className="listHorizontal">
+            <div className="feature">
+              <img src="/school.png" alt="" />
+              <div className="featureText">
+                <span>School</span>
+                <p>200m away</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/bus.png" alt="" />
+              <div className="featureText">
+                <span>Bus stop</span>
+                <p>100m away</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/restaurant.png" alt="" />
+              <div className="featureText">
+                <span>Restaurant</span>
+                <p>100m away</p>
+              </div>
+            </div>
+          </div>
+
           <p className="title">Location</p>
           <p className="title"></p>
-          <div className="mapContainer"></div>
+          <div className="mapContainer">
+            <Map items={[singlePostData]} />
+          </div>
           <div className="buttons">
-            <div className="button">
-              <button>
-                <img src="/chat.png" alt="" />
-                Send a message
-              </button>
-              <button>
-                <img src="/save.png" alt="" />
-                Send the place.
-              </button>
-            </div>
+            <button>
+              <img src="/chat.png" alt="" />
+              Send a message
+            </button>
+            <button>
+              <img src="/save.png" alt="" />
+              Send the place.
+            </button>
           </div>
         </div>
       </div>
