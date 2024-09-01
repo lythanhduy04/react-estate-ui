@@ -3,7 +3,7 @@
   height: 100%;
   overflow-y: scroll;
 
-  .details {
+  .details {position: fixed;
     flex: 3;
 
     .wrapper {
